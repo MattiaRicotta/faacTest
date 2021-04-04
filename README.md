@@ -21,6 +21,22 @@ Dall'immagine possiamo notare che:
 
 Altre informazioni su questo design e su come utilizzarlo al meglio possono essere trovate al seguente url: https://medium.com/@nicolasciotti/atomic-design-dfafdb379432
 
+
+## Sviluppo
+Per sviluppare in parallelo utilizzeremo la metodologia git, seguendo il gitflow mostrato nell'immagine seguente
+
+![alt text](https://iamchuka.com/content/images/2018/05/gitflowimage.png)
+
+Ecco una breve spiegazione del flusso:
+1. Per iniziare a sviluppare si crea un branch partendo da develop e lo si chiama con il nome del componente che si vuole realizzare (Es. feature/buttons)
+2. Si sviluppa sul branch creato e una volta terminato si fa il merge del proprio branch con develop
+3. Dopo aver fatto il merge in develop, si testa se la propria modifica funziona e se non ci sono stati conflitti o regressioni causate da quest'ultimo. Se questa verifica da esisto negativo si ritorna sul proprio branch, si effettuano le correzzioni e si procede ad un nuovo merge.
+4. In caso di esito positivo si effettua il merge del branch develop in master 
+
+
+
+
+
 ## Creazione di un componente 
 I nuovi componenti possono essere generati da riga di comando spostandosi sulla directory del progetto e digitando `ng generate component components/tipo-componente/nome-component`
 

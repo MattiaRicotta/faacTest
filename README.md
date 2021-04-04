@@ -1,7 +1,9 @@
 # EnhancersDesignSistem
 
-Lo scopo di questo progetto è quello di creare una libreria grafica utlizzando Angular come framework e StoryBook come tool di documentazione.
-Viene utilizzato l'atomic design, che ha come obiettivo quello di realizzare un progetto pensando al quadro completo: si parla di progettare il nucleo del sistema.
+Lo scopo di questo progetto è quello di creare una libreria grafica utilizzando Angular come framework e StoryBook come tool di documentazione. 
+E' possibile vedere i componenti che dovranno essere realizzati al seguente link: https://miro.com/app/board/o9J_lNFwJaQ=/
+
+Verrà utilizzato l'atomic design, pattern che ha come obiettivo quello di far realizzare un progetto pensando al quadro completo ma partendo dalla creazione del nucleo.
 
 Le cinque fasi della progettazione atomica sono:
 - Atomi
@@ -14,9 +16,9 @@ Le cinque fasi della progettazione atomica sono:
   ![alt text](https://miro.medium.com/max/2880/1*OwjMmIOi9rN5XwSOxZxT-g.png)
 
 Dall'immagine possiamo notare che:
-- Tanti atomi formano le molecole
+- Un insieme di atomi forma le molecole
 - Tante molecole formano gli organismi
-- Gli organismi insieme formano i Template
+- Più organismi insieme formano i template
 - Infine i template vengono raggruppati per comporre le pagine
 
 Altre informazioni su questo design e su come utilizzarlo al meglio possono essere trovate al seguente url: https://medium.com/@nicolasciotti/atomic-design-dfafdb379432

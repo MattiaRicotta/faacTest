@@ -33,7 +33,8 @@ Ecco una breve spiegazione del flusso:
 3. Dopo aver fatto il merge in develop, si testa se la propria modifica funziona e se non ci sono stati conflitti o regressioni causate da quest'ultimo. Se questa verifica da esisto negativo si ritorna sul proprio branch, si effettuano le correzzioni e si procede ad un nuovo merge.
 4. In caso di esito positivo si effettua il merge del branch develop in master 
 
-
+Il branch master è collegato ad un sistema di continuous integration:
+Ogni push in quel branch avvierà una build automatica che, se completata senza errori, integrerà le nostre modifiche sul seguente indirizzo: https://enhancers-design-sistem.web.app/
 
 
 

@@ -5,7 +5,10 @@ import {ButtonComponent} from './button.component';
 
 
 @NgModule({
-  declarations: [ ButtonComponent],
+  declarations: [ButtonComponent],
+  exports: [
+    ButtonComponent
+  ],
   imports: [
     CommonModule
   ]

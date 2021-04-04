@@ -70,13 +70,5 @@ Ulteriori informazioni possono essere trovare qui: https://storybook.js.org/docs
 ## Development server
 Dopo averlo scaricato, per avviare il nostro progetto è fondamentale installare le dipendenze, è possibile farlo con il comando `npm install`. Bisogna tenere presente che per eseguire questo comando bisogna che sul nostro terminale sia posizionato sul root del progetto e che sul nostro pc sia installato node.
 
-Per avviare storybook sul nostro browser è sufficiente lanciare il comando `npm run storybook` all'interno della directory del progetto
-
-
-
-
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
+- Per avviare il progetto angular sul nostro browser bisogna lanciare il comando `ng serve` 
+- Per avviare storybook sul nostro browser è sufficiente lanciare il comando `npm run storybook` all'interno della directory del progetto
